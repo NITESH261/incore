@@ -1,3 +1,4 @@
+
 /* ================= ROOT ================= */
 
 :root{
@@ -4897,3 +4898,879 @@ padding:30px 20px;
 
 
 
+
+
+
+
+
+
+/* ===================================== */
+/* OUR APPROACH SECTION */
+/* ===================================== */
+
+.approach-section{
+padding:110px 0;
+background:#faf9f7;
+}
+
+.approach-heading{
+text-align:center;
+max-width:850px;
+margin:auto;
+margin-bottom:70px;
+}
+
+.approach-heading h2{
+font-size:58px;
+font-family:"Poppins";
+color:#111;
+margin:15px 0;
+}
+
+.approach-heading p{
+font-size:18px;
+line-height:1.8;
+color:#555;
+}
+
+/* JOURNEY GRID */
+
+.journey-grid{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:18px;
+flex-wrap:wrap;
+margin-bottom:90px;
+}
+
+.journey-card{
+position:relative;
+background:#f5f5f0;
+padding:35px 25px;
+border-radius:28px;
+width:250px;
+min-height:320px;
+text-align:center;
+border:1px solid #d9ddd3;
+transition:.35s;
+}
+
+.journey-card:hover{
+transform:translateY(-8px);
+box-shadow:0 18px 40px rgba(0,0,0,.08);
+}
+
+.step-number{
+position:absolute;
+top:-18px;
+left:50%;
+transform:translateX(-50%);
+width:52px;
+height:52px;
+background:#5c725d;
+color:white;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:24px;
+font-weight:700;
+}
+
+.journey-icon{
+width:90px;
+height:90px;
+border:2px solid #5c725d;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:20px auto;
+font-size:38px;
+color:#5c725d;
+}
+
+.journey-card h3{
+font-size:28px;
+margin-bottom:10px;
+color:#4b5e4c;
+}
+
+.journey-card h4{
+font-size:17px;
+margin-bottom:15px;
+}
+
+.journey-card p{
+font-size:15px;
+line-height:1.7;
+color:#555;
+}
+
+.journey-arrow{
+font-size:32px;
+color:#5c725d;
+}
+
+/* CENTER CIRCLE */
+
+.center-circle{
+width:320px;
+height:320px;
+border-radius:50%;
+background:#5c725d;
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px;
+}
+
+.center-circle i{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.center-circle h3{
+font-size:36px;
+line-height:1.2;
+margin-bottom:15px;
+}
+
+/* PHASES */
+
+.phase-heading{
+text-align:center;
+margin-bottom:50px;
+}
+
+.phase-heading h2{
+font-size:42px;
+color:#4b5e4c;
+}
+
+.phases-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+}
+
+.phase-card{
+padding:35px 25px;
+border-radius:24px;
+transition:.35s;
+}
+
+.phase-card:hover{
+transform:translateY(-8px);
+}
+
+.phase-top{
+display:flex;
+align-items:center;
+gap:15px;
+margin-bottom:25px;
+}
+
+.phase-icon{
+width:65px;
+height:65px;
+border-radius:50%;
+background:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+}
+
+.phase-card span{
+font-size:13px;
+font-weight:700;
+}
+
+.phase-card h3{
+font-size:28px;
+margin-top:5px;
+}
+
+.phase-card ul{
+padding-left:18px;
+margin-bottom:25px;
+}
+
+.phase-card li{
+margin-bottom:10px;
+line-height:1.6;
+}
+
+.goal-box{
+background:rgba(255,255,255,.5);
+padding:18px;
+border-radius:14px;
+font-weight:600;
+line-height:1.6;
+}
+
+/* COLORS */
+
+.pink{
+background:#f7dfda;
+}
+
+.yellow{
+background:#f6e2b9;
+}
+
+.blue{
+background:#d8e4f5;
+}
+
+.green{
+background:#dde5d4;
+}
+
+/* HEALING BANNER */
+
+.healing-banner{
+margin-top:70px;
+padding:30px 40px;
+border-radius:24px;
+background:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:20px;
+border:1px solid #ddd;
+}
+
+.healing-left{
+display:flex;
+align-items:center;
+gap:20px;
+}
+
+.healing-left i{
+width:70px;
+height:70px;
+border-radius:50%;
+background:#5c725d;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:28px;
+}
+
+.healing-right{
+font-size:36px;
+font-family:cursive;
+color:#8c6e5b;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1200px){
+
+.phases-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.approach-heading h2{
+font-size:36px;
+}
+
+.center-circle{
+width:260px;
+height:260px;
+}
+
+.center-circle h3{
+font-size:28px;
+}
+
+.phases-grid{
+grid-template-columns:1fr;
+}
+
+.journey-arrow{
+display:none;
+}
+
+.healing-banner{
+flex-direction:column;
+text-align:center;
+}
+
+.healing-left{
+flex-direction:column;
+}
+
+}
+
+
+
+
+/* WELLNESS SECTION */
+
+.wellness-section{
+padding:110px 0;
+background:white;
+}
+
+.section-heading{
+text-align:center;
+max-width:760px;
+margin:auto;
+margin-bottom:60px;
+}
+
+.section-heading h2{
+font-size:48px;
+margin:15px 0;
+color:#7A0C44;
+}
+
+.wellness-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.wellness-card{
+background:#F6F7FB;
+border-radius:24px;
+overflow:hidden;
+transition:.35s;
+}
+
+.wellness-card:hover{
+transform:translateY(-10px);
+}
+
+.wellness-card img{
+width:100%;
+height:260px;
+object-fit:cover;
+}
+
+.wellness-card h3{
+padding:25px 25px 10px;
+font-size:28px;
+color:#7A0C44;
+}
+
+.wellness-card p{
+padding:0 25px 30px;
+line-height:1.8;
+}
+
+@media(max-width:768px){
+
+.wellness-grid{
+grid-template-columns:1fr;
+}
+
+.section-heading h2{
+font-size:34px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* ===================================== */
+/* JOURNEY SECTION COMPLETE OVERRIDE */
+/* PASTE AT VERY END OF style1.css */
+/* ===================================== */
+
+.journey-grid{
+
+display:flex !important;
+align-items:center !important;
+justify-content:flex-start !important;
+gap:22px !important;
+
+overflow-x:auto !important;
+overflow-y:hidden !important;
+
+padding:20px 10px 30px !important;
+
+scrollbar-width:none !important;
+scroll-behavior:smooth !important;
+
+flex-wrap:nowrap !important;
+
+}
+
+.journey-grid::-webkit-scrollbar{
+display:none !important;
+}
+
+
+/* ===================================== */
+/* CARDS */
+/* ===================================== */
+
+.journey-card{
+
+position:relative !important;
+
+flex:0 0 250px !important;
+width:250px !important;
+min-width:250px !important;
+
+min-height:360px !important;
+
+background:#f5f5f0 !important;
+
+padding:35px 24px !important;
+
+border-radius:28px !important;
+
+border:1px solid #d9ddd3 !important;
+
+text-align:center !important;
+
+transition:.35s ease !important;
+
+}
+
+.journey-card:hover{
+
+transform:translateY(-8px) !important;
+
+box-shadow:0 18px 40px rgba(0,0,0,.08) !important;
+
+}
+
+
+/* STEP NUMBER */
+
+.step-number{
+
+position:absolute !important;
+
+top:-18px !important;
+left:50% !important;
+
+transform:translateX(-50%) !important;
+
+width:54px !important;
+height:54px !important;
+
+background:#5c725d !important;
+
+color:white !important;
+
+border-radius:50% !important;
+
+display:flex !important;
+align-items:center !important;
+justify-content:center !important;
+
+font-size:24px !important;
+font-weight:700 !important;
+
+}
+
+
+/* ICON */
+
+.journey-icon{
+
+width:90px !important;
+height:90px !important;
+
+border:2px solid #5c725d !important;
+
+border-radius:50% !important;
+
+display:flex !important;
+align-items:center !important;
+justify-content:center !important;
+
+margin:18px auto !important;
+
+font-size:38px !important;
+
+color:#5c725d !important;
+
+}
+
+
+/* TITLES */
+
+.journey-card h3{
+
+font-size:22px !important;
+
+line-height:1.3 !important;
+
+margin-bottom:10px !important;
+
+color:#4b5e4c !important;
+
+}
+
+.journey-card h4{
+
+font-size:16px !important;
+
+margin-bottom:14px !important;
+
+}
+
+.journey-card p{
+
+font-size:15px !important;
+
+line-height:1.7 !important;
+
+color:#555 !important;
+
+}
+
+
+/* ===================================== */
+/* CENTER CIRCLE */
+/* ===================================== */
+
+.center-circle{
+
+flex:0 0 300px !important;
+
+width:300px !important;
+height:300px !important;
+
+min-width:300px !important;
+
+border-radius:50% !important;
+
+background:#5c725d !important;
+
+color:white !important;
+
+display:flex !important;
+
+flex-direction:column !important;
+
+justify-content:center !important;
+
+align-items:center !important;
+
+text-align:center !important;
+
+padding:35px !important;
+
+}
+
+.center-circle i{
+
+font-size:54px !important;
+
+margin-bottom:20px !important;
+
+}
+
+.center-circle h3{
+
+font-size:40px !important;
+
+line-height:1.15 !important;
+
+margin-bottom:15px !important;
+
+color:white !important;
+
+}
+
+.center-circle p{
+
+font-size:15px !important;
+
+line-height:1.7 !important;
+
+color:white !important;
+
+}
+
+
+/* ===================================== */
+/* ARROWS */
+/* ===================================== */
+
+.journey-arrow{
+
+flex:0 0 auto !important;
+
+font-size:34px !important;
+
+color:#5c725d !important;
+
+display:flex !important;
+
+align-items:center !important;
+justify-content:center !important;
+
+}
+
+
+/* ===================================== */
+/* MOBILE RESPONSIVE */
+/* ===================================== */
+
+@media(max-width:768px){
+
+.journey-grid{
+
+gap:18px !important;
+
+padding:20px 14px 30px !important;
+
+scroll-snap-type:x mandatory !important;
+
+}
+
+.journey-card,
+.center-circle{
+
+scroll-snap-align:center !important;
+
+}
+
+
+/* MOBILE CARDS */
+
+.journey-card{
+
+flex:0 0 82vw !important;
+
+width:82vw !important;
+
+min-width:82vw !important;
+
+min-height:auto !important;
+
+padding:30px 20px !important;
+
+}
+
+
+/* MOBILE CIRCLE */
+
+.center-circle{
+
+flex:0 0 82vw !important;
+
+width:82vw !important;
+height:82vw !important;
+
+min-width:82vw !important;
+
+padding:28px !important;
+
+}
+
+.center-circle h3{
+
+font-size:34px !important;
+
+}
+
+
+/* SMALLER TEXT */
+
+.journey-card h3{
+
+font-size:20px !important;
+
+}
+
+.journey-card p{
+
+font-size:14px !important;
+
+}
+
+
+/* ARROW */
+
+.journey-arrow{
+
+font-size:26px !important;
+
+}
+
+}
+
+
+
+
+
+/* ========================================= */
+/* FAQ SECTION */
+/* ========================================= */
+
+.faq-section{
+padding:110px 0;
+background:#faf9f6;
+}
+
+.faq-heading{
+text-align:center;
+max-width:800px;
+margin:auto;
+margin-bottom:70px;
+}
+
+.faq-heading span{
+font-size:14px;
+font-weight:700;
+letter-spacing:2px;
+color:#5c725d;
+}
+
+.faq-heading h2{
+font-size:58px;
+margin:18px 0;
+color:#111;
+}
+
+.faq-heading p{
+font-size:19px;
+line-height:1.8;
+color:#555;
+}
+
+/* WRAPPER */
+
+.faq-wrapper{
+max-width:1100px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+/* ITEM */
+
+.faq-item{
+background:white;
+border-radius:24px;
+border:1px solid #e3e3e3;
+overflow:hidden;
+transition:.3s;
+}
+
+.faq-item:hover{
+box-shadow:0 15px 40px rgba(0,0,0,.06);
+}
+
+/* QUESTION */
+
+.faq-question{
+width:100%;
+background:none;
+border:none;
+padding:28px 32px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:20px;
+cursor:pointer;
+font-size:22px;
+font-weight:600;
+text-align:left;
+color:#222;
+}
+
+.faq-question i{
+font-size:20px;
+color:#5c725d;
+transition:.3s;
+}
+
+/* ANSWER */
+
+.faq-answer{
+max-height:0;
+overflow:hidden;
+transition:max-height .4s ease;
+padding:0 32px;
+}
+
+.faq-answer p{
+font-size:17px;
+line-height:1.9;
+margin-bottom:18px;
+color:#555;
+}
+
+.faq-answer ul{
+padding-left:22px;
+margin-bottom:20px;
+}
+
+.faq-answer li{
+margin-bottom:12px;
+line-height:1.8;
+font-size:16px;
+color:#555;
+}
+
+/* ACTIVE */
+
+.faq-item.active .faq-answer{
+max-height:1200px;
+padding-bottom:30px;
+}
+
+.faq-item.active .faq-question i{
+transform:rotate(45deg);
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.faq-section{
+padding:80px 0;
+}
+
+.faq-heading h2{
+font-size:38px;
+}
+
+.faq-heading p{
+font-size:16px;
+}
+
+.faq-question{
+padding:22px 20px;
+font-size:18px;
+line-height:1.5;
+}
+
+.faq-answer{
+padding:0 20px;
+}
+
+.faq-answer p,
+.faq-answer li{
+font-size:15px;
+}
+
+}
